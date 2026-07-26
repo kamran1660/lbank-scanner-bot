@@ -20,7 +20,7 @@ jobs:
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
-TOKEN = "توکن_ربات_اینجا"
+TOKEN =8431896631:AAH8ai8Jg6B5VoNFVuJXEvP32jzrw9oWAdw
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("✅ ربات فعال شد.")
